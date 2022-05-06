@@ -113,7 +113,7 @@ function restart() {
 }
 
 function endGame() {
-    console.log('test victoire')
+    console.log('Fin de la partie')
     if (playerScore >= 3) {
         alert('Vous avez gagné la partie!');
         restart();
